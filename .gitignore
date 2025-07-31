@@ -1,0 +1,58 @@
+# デフォルトで全て無視
+/*
+
+# 管理したいものだけ明示的に含める
+!README.md
+!.gitignore
+!/work/
+/work/*
+!/work/tsunabee/
+
+# Next.js関連
+work/tsunabee/node_modules/
+work/tsunabee/.next/
+work/tsunabee/.env.local
+work/tsunabee/.env.production
+work/tsunabee/.env.development
+
+# ビルド関連
+work/tsunabee/out/
+work/tsunabee/build/
+work/tsunabee/dist/
+
+# TypeScript
+work/tsunabee/*.tsbuildinfo
+
+# npm/yarn
+work/tsunabee/npm-debug.log*
+work/tsunabee/yarn-debug.log*
+work/tsunabee/yarn-error.log*
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# テスト関連
+work/tsunabee/coverage/
+work/tsunabee/.nyc_output/
+
+# デバッグ
+work/tsunabee/.pnp.*
+work/tsunabee/.yarn/
+
+# Vercel
+work/tsunabee/.vercel/
+
+# 将来のモノレポ対応用（コメントアウト）
+# !/work/mockup/
+# !/work/ツール/
+# !/packages/
+# !/.github/
+# !/pnpm-workspace.yaml
+# !/package.json
